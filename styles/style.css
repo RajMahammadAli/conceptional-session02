@@ -71,9 +71,171 @@
   margin: 10px;
   font-size: large;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .btn-primary {
   background-color: orangered;
   color: white;
+  cursor: pointer;
+}
+
+.services-container {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  padding-bottom: 200px;
+  background-image: url("../asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.993));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.services-title {
+  font-size: 48px;
+  padding-bottom: 10px;
+}
+
+.service-list {
+  padding-top: 10px;
+}
+.services-info {
+  width: 50%;
+}
+.info {
+  margin: 10px;
+}
+
+.service-list {
+  margin-left: 18px;
+}
+.author {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.author-info {
+  padding: 5px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-right: 0.5px solid red;
+}
+
+.author-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.services {
+  width: 50%;
+  display: flex;
+}
+
+.service {
+  width: 280px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  padding-bottom: 20px;
+}
+
+.service-card-title {
+  padding-bottom: 10px;
+}
+
+.service-description {
+  font-size: 14px;
+}
+
+.appointment-container {
+  width: 80%;
+  height: 30%;
+  margin: -30px auto 0px;
+
+  padding: 30px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.callme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.appoint-phone {
+  width: 40px;
+  height: 40px;
+}
+
+.appointment-description {
+  text-align: center;
+}
+
+.number {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.blog-container {
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+  background-color: gray;
+}
+
+.blog-heading h1 {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+}
+
+.blogs {
+  margin: 0px 90px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog {
+  margin: 20px;
+  width: 270px;
+  height: 400px;
+  background-color: antiquewhite;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.blog-img {
+  width: 270px;
+  border-radius: 5px;
+}
+
+.blog h3 {
+  padding: 5px;
 }
